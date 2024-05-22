@@ -68,4 +68,15 @@ public class Empregado {
         }
         return aux;
     }
+    
+    //adicionar o void imprimir, para deixar mais dinamico e pratico, onde ira diminuir as linhas 
+    //e quando adicionar o metodo imprimir, ira dar a funcao.
+    
+    public void imprimir (){
+        System.out.println("Nome: " + getNome());
+        System.out.println("Endereço: " +getEndereço());
+        System.out.println("Salário: " + getSalario());
+ 
+    }
+
 }

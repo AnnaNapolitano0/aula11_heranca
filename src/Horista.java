@@ -1,9 +1,10 @@
 public class Horista extends Empregado {
     private double horas;
+    private double vl_horas;
  
     //Construtor
-    public Horista(String n, String e, double h){
-        super(n, e);
+    public Horista(String nome , String endereço, double h, double vl_horas){
+        super(nome, endereço);
         horas = h;
     }
  
